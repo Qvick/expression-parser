@@ -1,0 +1,20 @@
+{
+    "name": "@qvick/expression-parser",
+    "version": "1.0.0",
+    "description": "A simple but powerful parsing library for JavaScript.",
+    "keywords":
+    [
+        "lexer",
+        "parser",
+        "scanner"
+    ],
+    "homepage": "https://github.com/Qvick/expression-parser",
+    "bugs": "https://github.com/Qvick/expression-parser/issues",
+    "license": "ISC",
+    "author": "Nicklas Qvick",
+    "exports":
+    {
+        "./expression": "./expression.js",
+        "./expression-scope": "./expression-scope.js"
+    }
+}
