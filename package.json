@@ -1,6 +1,6 @@
 {
     "name": "@qvick/expression-parser",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "module",
     "description": "A simple but powerful parsing library for JavaScript.",
     "keywords":
