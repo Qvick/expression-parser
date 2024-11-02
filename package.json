@@ -1,6 +1,7 @@
 {
     "name": "@qvick/expression-parser",
     "version": "1.0.0",
+    "type": "module",
     "description": "A simple but powerful parsing library for JavaScript.",
     "keywords":
     [
@@ -14,7 +15,7 @@
     "author": "Nicklas Qvick",
     "exports":
     {
-        "./expression": "./expression.js",
-        "./expression-scope": "./expression-scope.js"
+        "./expression.js": "./expression.js",
+        "./expression-scope.js": "./expression-scope.js"
     }
 }
