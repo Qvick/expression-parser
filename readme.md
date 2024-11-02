@@ -110,8 +110,8 @@ This example shows how to make an arithmetic calculator that handles addition, s
 
 ~~~js
 
-import ExpressionScope from "expression-parser/expression-scope.js"
-import Expression from "expression-parser/expression.js"
+import ExpressionScope from "@qvick/expression-parser/expression-scope.js"
+import Expression from "@qvick/expression-parser/expression.js"
 
 class Addition
 {
