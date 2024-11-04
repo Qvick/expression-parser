@@ -1,6 +1,6 @@
 {
     "name": "@qvick/expression-parser",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "module",
     "description": "A simple but powerful parsing library for JavaScript.",
     "keywords":
@@ -8,6 +8,15 @@
         "lexer",
         "parser",
         "scanner"
+    ],
+    "files":
+    [
+        "expression-scope.js",
+        "expression-type.js",
+        "expression.js",
+        "package.json",
+        "license.md",
+        "readme.md"
     ],
     "homepage": "https://github.com/Qvick/expression-parser",
     "bugs": "https://github.com/Qvick/expression-parser/issues",
@@ -21,5 +30,8 @@
     "engines":
     {
         "node": ">=13.2.0"
+    },
+    "scripts":
+    {
     }
 }
