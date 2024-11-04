@@ -190,6 +190,15 @@ export default class Expression
 
     static evaluationState = Symbol("Expression.prototype.evaluate")
 
+    constructor(expressionType, leftExpression, rightExpression)
+    {
+        this.expressionType = expressionType
+
+        this.leftExpression = leftExpression
+
+        this.rightExpression = rightExpression
+    }
+
     get leftExpressions()
     {
         return this.leftExpression.evaluate()
@@ -198,15 +207,6 @@ export default class Expression
     get rightExpressions()
     {
         return this.rightExpression.evaluate()
-    }
-
-    constructor(expressionType, leftExpression, rightExpression)
-    {
-        this.expressionType = expressionType
-
-        this.leftExpression = leftExpression
-
-        this.rightExpression = rightExpression
     }
 
     update(expressionType, leftExpression, rightExpression)
