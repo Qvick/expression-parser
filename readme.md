@@ -205,14 +205,14 @@ expressionScope.numericalExpression = Expression.createAlternation(expressionSco
 // literal-expression ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
 expressionScope.literalExpression = Expression.createInterpretation(expressionValue => expressionRange.test(expressionValue))
 
-function derive(expressionNode, expressionValue)
+function derive(expressionRule, expressionValue)
 {
-    return expressionNode.derive(expressionValue)
+    return expressionRule.derive(expressionValue)
 }
 
-function evaluate(expressionNode)
+function evaluate(expressionRule)
 {
-    return expressionNode.evaluate()
+    return expressionRule.evaluate()
 }
 
 const expressionValues = ["(", "3", "0", "+", "5", "0", ")", "*", "(", "9", "0", "-", "7", "0", ")", "/", "1", "0", "+", "1", "0"]
